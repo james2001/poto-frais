@@ -1,0 +1,35 @@
+/* 
+    Created on : 4 oct. 2013, 07:47:44
+    Author     : james
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#divEquilibre
+{
+    margin-top: 5px;
+}
+
+/* portrait */
+@media screen and (orientation:portrait) {
+    .mode
+    {
+        display: none;
+    }
+    
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+    #ulEquilibre
+    {
+        float: left;
+    }
+    
+    #divChart
+    {
+        float: right;
+        margin-right: 5px;
+    }
+}
